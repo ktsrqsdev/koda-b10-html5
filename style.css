@@ -242,3 +242,69 @@ nav a {
     max-width: 210px;
     margin: 0 auto;
 }
+
+.contact {
+    position: relative;
+    min-height: 300px;
+    padding: 50px;
+    background: #031126;
+    color: white;
+    overflow: hidden;
+}
+
+.contact > div {
+    position: relative;
+    width: 42%;
+}
+
+.contact > div > p:first-child {
+    color: #2585e8;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.contact h2 {
+    font-size: 34px;
+    line-height: 1.15;
+    margin-bottom: 15px;
+}
+
+.contact > div > p:last-child {
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 340px;
+}
+
+.contact address {
+    position: absolute;
+    top: 65px;
+    left: 47%;
+    width: 30%;
+    font-style: normal;
+}
+
+.contact address ul {
+    list-style: none;
+}
+
+.contact address li {
+    position: relative;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.contact address a {
+    color: white;
+}
+
+.contact > figure {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    width: 20%;
+}
+
+.contact > figure img {
+    width: 100%;
+}
