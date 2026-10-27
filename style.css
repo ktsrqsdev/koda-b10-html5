@@ -308,3 +308,41 @@ nav a {
 .contact > figure img {
     width: 100%;
 }
+
+address {
+    position: absolute;
+    top: 65px;
+    left: 47%;
+    width: 30%;
+    font-style: normal;
+}
+
+address ul {
+    list-style: none;
+}
+
+address li {
+    position: relative;
+    margin-bottom: 25px;
+    min-height: 30px;
+    padding-left: 45px;
+    font-size: 13px;
+}
+
+address li img {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 35px;
+    height: 35px;
+}
+
+address li a,
+address li p {
+    display: inline-block;
+    padding-top: 5px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0;
+}
