@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(237, 238, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -33,7 +34,7 @@ body > header > a {
     top: 30px;
     color: white;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 body > header > a img {
@@ -59,7 +60,66 @@ nav li {
 nav a {
     color: white;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
+.home {
+    position: relative;
+    height: 480px;
+    background: #031126;
+    color: white;
+    overflow: hidden;
+}
+
+.home > div {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    width: 45%;
+    z-index: 2;
+}
+
+.home h1 {
+    font-size: 64px;
+    line-height: 1.05;
+    text-transform: uppercase;
+    max-width: 430px;
+    margin-bottom: 15px;
+}
+
+.home h1::first-line {
+    color: white;
+}
+
+.home p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 400px;
+    margin-bottom: 22px;
+}
+
+.home .hero-title .blue {
+    color: #087fe5;
+}
+
+.home > div > a {
+    display: inline-block;
+    padding: 13px 28px;
+    background: #087fe5;
+    color: white;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.home > figure {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    width: 48%;
+}
+
+.home > figure img {
+    width: 100%;
+}
