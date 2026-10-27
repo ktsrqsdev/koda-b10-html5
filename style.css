@@ -170,3 +170,75 @@ nav a {
     height: 100%;
     object-fit: cover;
 }
+
+.services {
+    position: relative;
+    min-height: 345px;
+    padding: 35px 50px;
+    background: #f6f8fd;
+    text-align: center;
+}
+
+.services > header {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.services > header > p {
+    color: #1767a8;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.services h2 {
+    font-size: 25px;
+    line-height: 1.25;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.service-list {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0;
+}
+
+.service-list article {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 33.333%;
+    min-height: 160px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+.service-list article {
+    border-right: 1px solid #dfe3ec;
+}
+
+.service-list article:last-child {
+    border-right: none;
+}
+.service-list article img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.service-list h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.service-list article p {
+    color: #505866;
+    font-size: 13px;
+    line-height: 1.4;
+    max-width: 210px;
+    margin: 0 auto;
+}
