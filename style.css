@@ -123,3 +123,50 @@ nav a {
 .home > figure img {
     width: 100%;
 }
+
+.about {
+    position: relative;
+    height: 250px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.about > div {
+    position: absolute;
+    top: 45px;
+    left: 20%;
+    width: 32%;
+}
+
+.about > div > p:first-child {
+    color: #1767a8;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.about h2 {
+    font-size: 25px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.about > div > p:last-child {
+    color: #505866;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.about > figure {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+}
+
+.about > figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
