@@ -1,7 +1,7 @@
 
 
 # Simple Landing Page
-![a](img\webcss.png)
+![](img/webcss.png)
  
 A single-page landing page for a web design service. Built with plain HTML and CSS, no frameworks or build tools.
  
